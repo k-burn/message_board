@@ -19,5 +19,10 @@ form{
 
 .deleteBTN{
     margin-left: 15rem;
+    background-color: darkgoldenrod;
+    color: lightgray;
+}
+
+#submitBTN{
     background-color: teal;
 }
