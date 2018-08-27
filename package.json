@@ -1,0 +1,26 @@
+{
+  "name": "message_board",
+  "version": "1.0.0",
+  "description": "Practice small scale full stack messaging application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-burn/message_board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-burn/message_board/issues"
+  },
+  "homepage": "https://github.com/k-burn/message_board#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "postgresql": "0.0.1"
+  }
+}
