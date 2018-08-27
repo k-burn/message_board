@@ -30,6 +30,7 @@ MessageBoard.controller('MessageController', function($http){
         }).then(function(response){
             console.log('In POST response of addMessage', response.data);
             vm.messageToAdd='';
+            getMessages();
         }).catch(function(error){
             console.log('Error in Post', error);
         })

@@ -4,7 +4,7 @@ var pool= require('../modules/pool.js');
 
 router.get('/', (req, res)=>{
     console.log('in GET');
-    const query =`SELECT * FROM "messsages";`;
+    const query ='SELECT * FROM "messages";';
     pool.query(query).then((results) =>{
         console.log(results);
         res.send(results.rows);
