@@ -16,3 +16,8 @@ form{
     margin-left: 3rem;
 
  }
+
+.deleteBTN{
+    margin-left: 15rem;
+    background-color: teal;
+}

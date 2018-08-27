@@ -39,6 +39,7 @@
         <br>
         <div ng-repeat="message in mc.messageHistory">
             <p>{{message.name}} : {{message.message}}</p>
+            <button class="deleteBTN" ng-click="mc.deleteMessage(message.id)">Delete</button>
         </div>
     </div>
 </body>

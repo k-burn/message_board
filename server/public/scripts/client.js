@@ -35,4 +35,14 @@ MessageBoard.controller('MessageController', function($http){
             console.log('Error in Post', error);
         })
     }
+    vm.deleteMessage=function(idToDelete){
+        console.log('in deleteMessage');
+        $http.delete('/messages/' + idToDelete)
+        .then(function(response) {
+          getMessages();
+      }).catch(function(error){
+          console.log('error deleting');
+      })
+        
+    }
 })
